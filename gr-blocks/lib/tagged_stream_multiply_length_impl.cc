@@ -26,7 +26,8 @@
 
 #include "tagged_stream_multiply_length_impl.h"
 #include <gnuradio/io_signature.h>
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 namespace blocks {
 

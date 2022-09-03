@@ -28,7 +28,8 @@
 #include <gnuradio/io_signature.h>
 #include <string.h>
 #include <stdexcept>
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 namespace blocks {
 

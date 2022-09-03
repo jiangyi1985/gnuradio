@@ -38,7 +38,8 @@
 #include <linux/if.h>
 #include <sys/ioctl.h>
 #endif
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 namespace blocks {
 

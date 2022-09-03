@@ -31,7 +31,8 @@
 #include <gnuradio/prefs.h>
 #include <iostream>
 #include <stdexcept>
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 
 block::block(const std::string& name,

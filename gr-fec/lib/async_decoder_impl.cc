@@ -28,7 +28,8 @@
 #include <gnuradio/io_signature.h>
 #include <stdio.h>
 #include <volk/volk.h>
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 namespace fec {
 

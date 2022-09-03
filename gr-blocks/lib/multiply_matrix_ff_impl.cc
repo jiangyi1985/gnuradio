@@ -27,7 +27,8 @@
 #include "multiply_matrix_ff_impl.h"
 #include <gnuradio/io_signature.h>
 #include <volk/volk.h>
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 namespace blocks {
 

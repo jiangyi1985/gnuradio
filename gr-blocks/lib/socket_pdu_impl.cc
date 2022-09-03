@@ -28,7 +28,8 @@
 #include "tcp_connection.h"
 #include <gnuradio/blocks/pdu.h>
 #include <gnuradio/io_signature.h>
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 namespace blocks {
 

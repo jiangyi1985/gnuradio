@@ -34,7 +34,8 @@
 #include <cstdio>
 #include <iostream>
 #include <stdexcept>
-
+#include <boost/bind/placeholders.hpp>
+using namespace boost::placeholders;
 namespace gr {
 namespace blocks {
 

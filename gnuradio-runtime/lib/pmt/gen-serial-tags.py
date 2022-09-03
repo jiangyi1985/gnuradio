@@ -36,7 +36,7 @@ import sys, os, re
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print "Usage %s <input_scm_file> <output_hdr_file>"%__file__
+        print ("Usage %s <input_scm_file> <output_hdr_file>"%__file__)
         exit()
     input_scm_file, output_hdr_file = sys.argv[1:]
     enums = list()
